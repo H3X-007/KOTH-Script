@@ -82,7 +82,7 @@ wget http://$IP/check.sh
 
 chmod +x check.sh
 
-./check.sh &
+./check.sh "$nick" &
 
 
 echo "--------------------File successfully running in the background---------------"
