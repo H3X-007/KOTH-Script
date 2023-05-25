@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hi, I am The KOTH Script ... I have been created by H3X-007 to make sure you are the KING :) I'm kind :°) "
+echo "Hi, I am The KOTH Script ... I have been created by H3X-007 to make sure you are the KING :) I'm kind :D "
 
 echo "Join our Discord Server: https://discord.gg/y3aCGbrT8J"
 
