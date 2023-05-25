@@ -14,20 +14,16 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 1. Clone the repository or download the script file \`koth_script.sh\`.
 
-   
-   git clone https://github.com/H3X-007/KOTH-Scripts.git
-   
+    
+    git clone https://github.com/H3X-007/KOTH-Scripts.git
 
 2. Make the script executable.
-
   
-   chmod +x koth_script.sh
+    chmod +x koth_script.sh
    
-
 3. Run the script.
-
    
-   ./KOTH.sh
+    ./KOTH.sh
    
 
 4. Enter your desired nickname when prompted.
