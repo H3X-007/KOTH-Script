@@ -22,7 +22,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
     chmod +x koth_script.sh
    
 3. Run the script.
-   
+  
     ./KOTH.sh
    
 
