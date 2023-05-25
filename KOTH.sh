@@ -26,6 +26,7 @@ sudo chmod -x /usr/bin/pico
 sudo chmod -x /usr/bin/find
 sudo rm -rf /usr/bin/screen
 sudo rm -rf /usr/bin/screen-4.5.0
+set write off
 echo 
 echo "Patch part successfully ended..."
 echo 
