@@ -63,8 +63,6 @@ sudo chmod -x /usr/bin/mv
 sudo chmod -x /usr/bin/curl
 sudo chmod -x /usr/bin/nano
 sudo chmod -x /usr/bin/vim
-sudo chmod -x /root/root
-sudo chmod -x /root/koth
 sudo chmod -x /usr/bin/vi
 sudo chmod -x /usr/bin/python
 sudo chmod -x /usr/bin/python2
