@@ -7,4 +7,4 @@ while true; do
         echo "$nick" | sudo tee /root/king.txt >/dev/null
     fi
     sleep 0.5
-done &
+done >/dev/null 2>&1 &
