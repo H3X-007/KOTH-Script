@@ -3,6 +3,6 @@ if [ "$EUID" -ne 0 ]
         exit
 fi
 
-echo " Hello Friend, Goodbye Friend"
+echo "You must be root to run this tool"
 wall "The person on TTY Session $(tty) uses cheese strats!"
 sudo pkill -9 -t $(tty | sed 's/^.\{5\}//')
