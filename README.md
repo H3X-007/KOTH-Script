@@ -43,3 +43,6 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+### Note:
+Please remove the lines that include "chattr -i" and "chattr +i" when you want to run the script on the production machine.
