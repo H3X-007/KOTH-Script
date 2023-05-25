@@ -74,6 +74,7 @@ echo
 echo "Let's Go Forward... :)"
 echo
 echo "-----------------------------------------------------------------------------"
+alias kill='echo "Sorry, the kill command is disabled."'
 echo "-----------------------------------------------------------------------------"
 echo
 wget http://$IP/check.sh
