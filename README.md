@@ -21,7 +21,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 2. Step 2
        
-       cd KOTH-Scripts && python3 -m http.server 80
+       cd KOTH-Script && python3 -m http.server 80
 
 3. In KOTH Machine.
   
