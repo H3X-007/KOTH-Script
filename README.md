@@ -1,7 +1,7 @@
 # The KOTH Script
 
 
-![King](king.img)
+![King](king.jpg)
 
 The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the ultimate KING in King of the Hill challenges. It automates various actions and configurations to secure your position as the reigning champion.
 
