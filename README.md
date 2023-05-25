@@ -16,12 +16,15 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
     
        git clone https://github.com/H3X-007/KOTH-Scripts.git
+2. Change To Directory
 
-2. Make the script executable.
+       cd 
+
+3. Make the script executable.
   
-       chmod +x koth_script.sh
+       chmod +x KOTH.sh
    
-3. Run the script.
+4. Run the script.
   
        ./KOTH.sh   
 
