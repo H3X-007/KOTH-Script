@@ -70,7 +70,7 @@ sudo chmod -x /usr/bin/python
 sudo chmod -x /usr/bin/python2
 sudo chmod -x /usr/bin/python3
 sudo chmod -x /usr/bin/nc
-
+sudo chmod -x /bin/nc
 echo "-----------------------------------------------------------------------------"
 
 echo "Let's Go Forward... :)"
@@ -78,6 +78,7 @@ echo "Let's Go Forward... :)"
 sudo chmod -x /bin/kill
 sudo chmod -x /bin/systemctl
 sudo chmod -x /usr/bin/chmod
+sudo chmod -x /bin/chmod
 
 while true; do
     current_nick=$(sudo cat /root/king.txt)
