@@ -12,11 +12,11 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 ## Usage
 
-1. Clone the repository or download the script file \`KOTH.sh\`.
+1. Step 1
     
        git clone https://github.com/H3X-007/KOTH-Scripts.git
 
-2. Change directory
+2. Step 2
        
        cd KOTH-Scripts && python3 -m http.server 80
 
