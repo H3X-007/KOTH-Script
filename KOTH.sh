@@ -38,6 +38,7 @@ echo "Services Stopped..."
 
 echo "-----------------------------------------------------------------------------"
 
+chmod +x /usr/bin/chattr
 sudo chattr -i /root/king.txt
 echo "$nick" | sudo tee /root/king.txt >/dev/null
 sudo chattr +i /root/king.txt
