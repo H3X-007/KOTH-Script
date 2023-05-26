@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# H3X-007 :)
 nick=$1
 while true; do
     current_nick=$(sudo cat /root/king.txt)
