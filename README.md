@@ -1,6 +1,6 @@
 # The KOTH Script
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
   <script src="https://tryhackme.com/badge/1262708"></script>
 </div>
 
