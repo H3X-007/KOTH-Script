@@ -38,7 +38,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 6. Sit back and enjoy being the KING! The script will continuously update the KING nickname in the `/root/king.txt` file to maintain your dominance.
 
-#### NOTE : Please ensure that the Python server is running on port 80 before executing the KOTH script.The KOTH script relies on the server to retrieve and run the check.sh and chattr scripts. Once the check.sh and chattr scripts are obtained and executed, you can safely close the Python server.
+#### NOTE : Please ensure that the Python server is running on port 80 before executing the KOTH script.The KOTH script relies on the server to retrieve and run the check & chattr & guardian scripts. Once the check & chattr & guardian scripts are obtained and executed, you can safely close the Python server.
 
 ## Contributing
 
