@@ -1,8 +1,9 @@
 # The KOTH Script
 
-<div style="display: flex; justify-content: center;">
-  <script src="https://tryhackme.com/badge/1262708"></script>
-</div>
+<p align="center">
+  <img src="king.png" alt="King">
+</p>
+
 
 **NOTE: Respect TryHackMe Rules**
 
