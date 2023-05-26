@@ -4,7 +4,7 @@
   <img src="king.png" alt="King">
 </p>
 
-**NOTE: Respect TryHackMe Rules
+**NOTE: Respect TryHackMe Rules**
 
 **The KOTH Script is intended for recreational purposes within authorized environments, such as private games. Always adhere to the rules and guidelines provided by TryHackMe or any other platform you are using. The creator of this script is not responsible for any misuse or violation of terms. Use it responsibly and ethically.**
 
