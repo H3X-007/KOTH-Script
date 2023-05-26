@@ -9,7 +9,7 @@
 
 **The KOTH Script is intended for recreational purposes within authorized environments, such as private games. Always adhere to the rules and guidelines provided by TryHackMe or any other platform you are using. The creator of this script is not responsible for any misuse or violation of terms. Use it responsibly and ethically.**
 
-The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the ultimate KING in King of the Hill challenges. It automates various actions and configurations to secure your position as the reigning champion.
+The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the ultimate KING in King of the Hill challenges. It automates various actions and configurations to secure your position as the reigning champion.a
 
 ## Features
 
