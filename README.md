@@ -15,8 +15,6 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 - Sets the user nickname as the KING in the `/root/king.txt` file.
 - Applies necessary patches to enhance security.
-- Stops critical services like Tomcat, Nginx, and MariaDB.
-- Restricts file permissions and removes certain executables.
 - Monitors and updates the KING nickname in real-time.
 
 ## Usage
