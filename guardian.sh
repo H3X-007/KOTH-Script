@@ -1,6 +1,6 @@
 #!/bin/bash
 
-script_path="/mnt/.../guardian.sh"
+script_path="/home/.../check.sh"
 ip_address="$1"
 
 if [ -z "$ip_address" ]; then
