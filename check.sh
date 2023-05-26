@@ -1,12 +1,16 @@
 #!/bin/bash
 #H3X-007 :)
 
-script_path="/etc/bin/check"
 ip_file="/etc/HOST"
 nick_file="/etc/nick"
 
-ip_address=$(cat "$ip_file")
-nick=$(cat "$nick_file")
+if [ -f "$ip_file" ]; then
+    ip_address=$(head -n 1 "$ip_file")
+fi
+
+if [ -f "$nick_file" ]; then
+    nick=$(head -n 1 "$nick_file")
+fi
 
 while true; do
     current_nick=$(sudo cat /root/king.txt)
