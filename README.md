@@ -23,7 +23,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 1. Clone the repository:
     
-       git clone https://github.com/H3X-007/KOTH-Scripts.git
+       git clone https://github.com/H3X-007/KOTH-Script.git
 
 2. Change to the KOTH-Scripts directory:
        
