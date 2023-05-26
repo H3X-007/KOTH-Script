@@ -1,5 +1,5 @@
 #!/bin/bash
-# H3X-007 ;)
+# Created by @H3X-007 ;)
 echo
 echo "Hi, I am The KOTH Script ... I have been created by H3X-007 to make sure you are the KING :) I'm kind :D "
 echo
