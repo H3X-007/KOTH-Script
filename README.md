@@ -18,7 +18,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 - Monitors and updates the KING nickname in real-time.
 
 ## Usage
-.
+
 1. Clone the repository:
     
        git clone https://github.com/H3X-007/KOTH-Script.git
