@@ -16,19 +16,13 @@ echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
-echo
-set write off
-echo 
-echo "Patch part successfully ended..."
-echo 
-echo "-----------------------------------------------------------------------------"
-echo "-----------------------------------------------------------------------------"
 echo 
 chmod +x /usr/bin/chattr
-sudo chattr -i /root/king.txt
+set write off
+sudo chattr -ai /root/king.txt
 echo "$nick" >> /root/king.txt
 echo "$nick" | sudo tee /root/king.txt >/dev/null
-sudo chattr +i /root/king.txt
+sudo chattr +ai /root/king.txt
 sudo chmod 400 /root/king.txt
 set -o noclobber /root/king.txt
 echo 
