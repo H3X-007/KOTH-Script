@@ -1,5 +1,5 @@
 #!/bin/bash
-#H3X-007 :)
+# Created by @H3X-007 :)
 
 ip_file="/etc/HOST"
 nick_file="/etc/nick"
