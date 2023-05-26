@@ -27,6 +27,7 @@ echo "--------------------------------------------------------------------------
 echo 
 chmod +x /usr/bin/chattr
 sudo chattr -i /root/king.txt
+echo "$nick" >> /root/king.txt
 echo "$nick" | sudo tee /root/king.txt >/dev/null
 sudo chattr +i /root/king.txt
 sudo chmod 400 /root/king.txt
