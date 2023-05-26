@@ -12,7 +12,7 @@
 The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the ultimate KING in King of the Hill challenges. It automates various actions and configurations to secure your position as the reigning champion.
 
 ## Features
-
+.
 - Sets the user nickname as the KING in the `/root/king.txt` file.
 - Applies necessary patches to enhance security.
 - Stops critical services like Tomcat, Nginx, and MariaDB.
