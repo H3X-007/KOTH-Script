@@ -61,7 +61,6 @@ echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
 echo "$IP" > /etc/HOST &
 echo "$nick" > /etc/nick &
-chmod +x /root/king.txt
 history -c
 echo
 echo "-----------------------------------------------------------------------------"
