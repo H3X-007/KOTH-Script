@@ -18,7 +18,6 @@ while true; do
     if [ "$current_nick" != "$nick" ]; then
         echo "$nick" >> "$king_txt"
         sudo tee "$king_txt" >/dev/null <<< "$nick"
-        sudo mount -o remount,ro /dev/sda1
     fi
 
     if [ ! -f "/usr/bin/guardian" ]; then
