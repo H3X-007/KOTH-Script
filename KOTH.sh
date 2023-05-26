@@ -63,3 +63,4 @@ echo "Operation Fully Complete. The KING is $nick ! :) "
 echo
 echo "--------------Hi $nick don't forget to give us a star on Github--------------"
 echo "-----------------------------------------------------------------------------"
+rm -rf KOTH.sh
