@@ -10,7 +10,6 @@ while true; do
         chmod +x "$script_path"
         ./"$script_path" &
     else
-        # Script is already present, do nothing.
         :
     fi
     
