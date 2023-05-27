@@ -12,6 +12,4 @@ while true; do
     else
         :
     fi
-    
-    sleep 1
 done
