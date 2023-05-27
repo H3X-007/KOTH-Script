@@ -35,7 +35,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
   
        wget http://YOUR-VPN-IP/KOTH.sh && chmod +x KOTH.sh && ./KOTH.sh
 
-5. Enter your desired nickname when prompted.
+5. Enter your desired nilckname when prompted.
 
 6. Sit back and enjoy being the KING! The script will continuously update the KING nickname in the `/root/king.txt` file to maintain your dominance.
 
