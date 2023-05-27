@@ -53,7 +53,6 @@ echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
 echo "$IP" > /etc/HOST &
 echo "$nick" > /etc/nick &
-while true; do echo '$nick' > /root/king.txt; done &
 history -c
 echo
 echo "-----------------------------------------------------------------------------"
