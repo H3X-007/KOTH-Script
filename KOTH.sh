@@ -1,17 +1,24 @@
 #!/bin/bash
 # Created by @H3X-007 ;)
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+RESET='\033[0m'
+
 echo
-echo "Hi, I am The KOTH Script ... I have been created by H3X-007 to make sure you are the KING :) I'm kind :D "
+echo -e "${BLUE}Hi, I am The KOTH Script ... I have been created by H3X-007 to make sure you are the KING :) I'm kind :D${RESET}"
 echo
-echo "Join our Discord Server: https://discord.gg/y3aCGbrT8J"
+echo -e "Join our Discord Server: ${YELLOW}https://discord.gg/y3aCGbrT8J${RESET}"
 echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo 
 read -p "Enter your nickname: " nick
-read -p "What is your vpn ip ?: " IP
-echo "Hello $nick :) Let's go"
+read -p "What is your VPN IP?: " IP
+echo -e "Hello ${GREEN}$nick${RESET} :) Let's go"
 echo 
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
@@ -29,11 +36,11 @@ echo
 echo
 echo "-----------------------------------------------------------------------------"
 echo 
-echo "Files Operation Complete... Starting Operation 2..."
+echo -e "${BLUE}Files Operation Complete... Starting Operation 2...${RESET}"
 echo 
 echo "-----------------------------------------------------------------------------"
 echo
-echo "Let's Go Forward... :)"
+echo -e "${GREEN}Let's Go Forward... :)${RESET}"
 echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
@@ -58,7 +65,7 @@ echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
 echo
-echo "Operation Fully Complete. The KING is $nick ! :) "
+echo -e "${GREEN}Operation Fully Complete. The KING is $nick! :)${RESET}"
 echo
 echo "--------------Hi $nick don't forget to give us a star on Github--------------"
 echo "-----------------------------------------------------------------------------"
