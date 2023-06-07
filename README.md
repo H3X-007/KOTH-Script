@@ -1,7 +1,7 @@
 # The KOTH Script
 
 <p align="center">
-  <img src="king.png" alt="King">
+  <img src="king" alt="King">
 </p>
 
 
