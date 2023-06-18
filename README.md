@@ -29,7 +29,7 @@ The KOTH Script is a powerful tool created by H3X-007 to ensure that you are the
 
 3. Start a Python HTTP server on port 80:
   
-       python3 -m http.server 80  
+       sudo python3 -m http.server 80  
 
 4. On the KOTH machine, execute the KOTH.sh script:
   
