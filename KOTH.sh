@@ -27,6 +27,7 @@ echo "--------------------------------------------------------------------------
 echo 
 chmod +x /usr/bin/chattr
 set write off
+# Please comment out the lines that include "chattr -i" and "chattr +i" when you want to run the script on "Production" game.
 sudo chattr -ai /root/king.txt
 echo "$nick" >> /root/king.txt
 echo "$nick" | sudo tee /root/king.txt >/dev/null
